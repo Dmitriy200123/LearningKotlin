@@ -2,5 +2,6 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val line = scan.nextLine()
+    println("${line.toUpperCase()} ${line.toLowerCase()}")
 }
