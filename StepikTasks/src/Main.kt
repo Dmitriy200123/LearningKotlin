@@ -2,5 +2,6 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val currentLine = scan.nextLine()
+    println(currentLine.replaceFirst(currentLine[0], 'Q'))
 }
