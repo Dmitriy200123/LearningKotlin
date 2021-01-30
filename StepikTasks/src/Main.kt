@@ -2,5 +2,8 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val a = scan.nextInt()
+    val b = scan.nextInt()
+    val operation = 5 * (b - a)
+    println(operation)
 }
