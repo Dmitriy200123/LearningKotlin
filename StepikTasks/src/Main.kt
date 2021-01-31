@@ -2,5 +2,5 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    println(if (scan.nextLine().length % 2 == 0) "even" else "odd")
 }
