@@ -1,6 +1,7 @@
 import java.util.*
 
-val scan = Scanner(System.`in`)
+val scan = Scanner(System.`in`).useLocale(Locale.US)
 fun main(){
-    println(scan.nextInt())
+    val number = scan.nextDouble()
+    println(Math.sin(number))
 }
