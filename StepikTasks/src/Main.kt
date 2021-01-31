@@ -2,5 +2,10 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val maxNumber = scan
+        .nextLine()
+        .split(' ')
+        .map { it.toInt() }
+        .maxOrNull()
+    println(maxNumber)
 }
