@@ -2,5 +2,5 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    println(scan.next()[0] in 'C'..'Y')
 }
