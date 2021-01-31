@@ -2,5 +2,6 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val names = scan.nextLine().split(' ').map { it.capitalize() }.joinToString(" " )
+    println(names)
 }
