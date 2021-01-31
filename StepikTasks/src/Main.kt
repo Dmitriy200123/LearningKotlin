@@ -2,5 +2,6 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val number = scan.nextInt()
+    println("Ого, у тебя целых $number\$DDDD:")
 }
