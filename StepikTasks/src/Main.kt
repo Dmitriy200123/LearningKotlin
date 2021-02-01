@@ -2,5 +2,9 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val n = scan.nextInt()
+    val word = scan.next()
+    repeat(n){
+        println(word)
+    }
 }
