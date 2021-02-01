@@ -2,5 +2,5 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println((scan.nextInt() .. scan.nextInt()).sum())
+    println((5 .. scan.nextInt() * 5 step 5).joinToString(" "))
 }
