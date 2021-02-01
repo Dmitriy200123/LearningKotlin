@@ -2,5 +2,8 @@ import java.util.*
 
 val scan = Scanner(System.`in`)
 fun main(){
-    println(scan.nextInt())
+    val currentLine = scan.nextLine()
+    repeat(20){
+        println(currentLine)
+    }
 }
